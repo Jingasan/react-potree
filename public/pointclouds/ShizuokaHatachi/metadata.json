@@ -1,0 +1,104 @@
+{
+	"version": "2.0",
+	"name": "data",
+	"description": "",
+	"points": 1237140,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 5764, 
+		"stepSize": 4, 
+		"depth": 5
+	},
+	"offset": [-70831.302030000006, -127900.99571, 109.5719],
+	"scale": [1.0000000000000001e-05, 1.0000000000000001e-05, 1.0000000000000001e-05],
+	"spacing": 1.4434632812500467,
+	"boundingBox": {
+		"min": [-70831.302030000006, -127900.99571, 109.5719], 
+		"max": [-70646.53873, -127716.23241, 294.33520000000601]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [-70831.302030000006, -127900.99571, 109.5719],
+			"max": [-70668.077969999998, -127716.23241, 151.61950000000002]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [65278]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "scan angle rank",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [0]
+		},{
+			"name": "rgb",
+			"description": "",
+			"size": 6,
+			"numElements": 3,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0, 0, 0],
+			"max": [233, 222, 228]
+		}
+	]
+}
